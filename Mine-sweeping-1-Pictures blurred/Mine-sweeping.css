@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(249,249,249);
+}
+
+#start {
+    position: relative;
+}
+
+#start_background {
+    width: 100%;
+    z-index: 1;
+}

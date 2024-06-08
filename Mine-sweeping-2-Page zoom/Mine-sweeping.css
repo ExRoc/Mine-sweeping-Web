@@ -1,0 +1,67 @@
+@font-face {
+    font-family: '华康娃娃体简W5';
+    src: url('Fonts/华康娃娃体简W5.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "华康娃娃体简W5";
+    font-size: 100%;
+    background-color: rgb(249,249,249);
+}
+
+#start {
+    position: relative;
+}
+
+#start_background {
+    z-index: 1;
+}
+
+#statistics {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    z-index: 2;
+}
+
+#option {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    z-index: 2;
+}
+
+#help {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    z-index: 2;
+}
+
+#new_game {
+    font-size: 6.0em;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+}
+
+#statistics_data {
+    opacity: 0.0;
+    font-size: 2.0em;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    z-index: 2;
+}
+
+#option_data {
+    opacity: 0.0;
+    font-size: 2.0em;
+    position: absolute;
+    top: 46%;
+    left: 36%;
+    z-index: 2;
+}
